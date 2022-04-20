@@ -1,0 +1,18 @@
+Algoritmo "horas trabalhadas"
+
+Var
+horas,precoh,areceber:real
+
+Inicio
+	escreval("digite a qnt de hora:")
+	leia(horas)
+
+	escreval("digite o valor da sua hora:")
+	leia(precoh)
+
+	areceber:= horas*precoh
+
+	escreval("o valor a receber é de: " , areceber)
+
+
+Fimalgoritmo
