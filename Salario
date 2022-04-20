@@ -1,0 +1,17 @@
+Algoritmo "salario"
+
+Var
+cheque,conta,total:real
+
+Inicio
+	escreval("Digite o valor do cheque: ")
+	leia(cheque)
+
+	conta:= 500
+
+	total:= conta-cheque
+
+	escreval("O saldo total da sua conta é de " , total)
+
+
+Fimalgoritmo
