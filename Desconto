@@ -1,0 +1,29 @@
+Algoritmo "Desconto"
+
+Var
+valorp,nparc,desc,vcdesc,vparc:real
+
+
+Inicio
+    escreval("digite o valor do produto")
+    leia(valorp)
+
+    escreval("Digite o numero de parcelas")
+    leia(nparc)
+
+se(valorp>2000)entao
+    desc:= valorp*0.1
+senao
+    desc:=0
+fimse
+
+    vcdesc:=valorp-desc
+    vparc:=vcdesc/nparc
+
+escreval("O descono foi de: " , desc)
+escreval("valor com desconto foi de: " , vcdesc)
+escreval("O valor da parcela foi de: " , vparc)
+
+
+
+Fimalgoritmo
