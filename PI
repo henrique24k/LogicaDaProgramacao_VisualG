@@ -1,0 +1,16 @@
+Algoritmo "PI"
+
+Var
+raio,area:real
+
+
+Inicio
+	escreval("Digite o valor do raio:")
+	leia(raio)
+
+	area:=pi*exp(raio,2)
+
+	escreval("O Valor de da aerea é de: " , area)
+
+
+Fimalgoritmo
