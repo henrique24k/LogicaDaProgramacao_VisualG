@@ -1,0 +1,22 @@
+Algoritmo "Sucessor e Antecessor"
+
+Var
+sucessor,antecessor,numero:inteiro
+nome:caractere
+
+Inicio
+
+	escreval("Digite seu nome para começarmos ! : ")
+	leia(nome)
+
+	escreval(nome , " Digite um numero para saber o Sucessor e o Antecessor :")
+	leia(numero)
+
+	antecessor:= (numero-1)
+	sucessor:= (numero +1)
+
+	escreval(nome , "O Antecessor do " , numero , " é " , antecessor , " e o Sucessor é " , Sucessor)
+
+
+
+Fimalgoritmo
