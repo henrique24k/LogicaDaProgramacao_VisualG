@@ -1,0 +1,25 @@
+Algoritmo "preçoTotal"
+
+Var
+
+desc:caracter
+vunit,vtotal:real
+quant:inteiro
+
+
+Inicio
+ 
+	escreva(" Digite a descriçãp do produto: ")
+	leia(desc)
+
+	escreva("Digite o valor unitário do produto: ")
+	leia (vunit)
+
+	escreva("Digite a quantidade: ")
+	leia (quant)
+
+	vtotal:=vunit*quant
+
+	escreva("O valor total é: ", vtotal)
+
+Fimalgoritmo
