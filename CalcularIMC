@@ -1,0 +1,42 @@
+Algoritmo "Imc"
+
+Var
+peso,altura,imc:real
+resultado:caracter
+
+Inicio
+
+    escreval("Digite o peso ")
+    leia(peso)
+
+    escreval("Digite a Altura ")
+    leia(altura)
+
+    imc:=peso/(altura*altura)
+
+se (imc<18.5) entao
+    resultado:= "Abaixo do Peso!"
+senao
+
+se (imc>=18.5) e (imc<=24.9)entao
+    resultado:= "Peso Normal"
+senao
+
+se (imc>=25) e (imc<=29.9)entao
+    resultado:= "Sobrepeso - Grau I"
+senao
+
+se (imc>=30) e (imc<=39.9)entao
+    resultado:= "Obesidade - Grau II"
+senao
+
+resultado:= "Obesidade - Grau III"
+
+fimse
+     fimse
+          fimse
+               fimse
+escreval(" O IMC é : " , imc)
+escreval(" O Resultado é : " , resultado)
+
+Fimalgoritmo
