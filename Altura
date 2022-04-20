@@ -1,0 +1,17 @@
+Algoritmo "Altura"
+
+Var
+    altura,base,area:real
+
+Inicio
+    escreval("Digite o Valor da Altura: ")
+    leia(altura)
+    escreval("Digite o Valor da base: ")
+    leia(base)
+
+    area:=(base*altura)/2
+
+    escreval("O valor da area é : " , area)
+
+
+Fimalgoritmo
