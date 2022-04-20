@@ -1,0 +1,23 @@
+Algoritmo "Troca"
+
+Var
+A,B,C:inteiro
+
+Inicio
+A:=10
+B:=20
+
+escreval("Valor de A :" , A)
+escreval("Valor de B :" , B)
+escreval("Vamos trocar? ")
+
+C:=A
+A:=B
+B:=C
+
+escreval("Valor de A: " , A)
+escreval("VAlor de B: " , B)
+
+
+
+Fimalgoritmo
