@@ -1,0 +1,27 @@
+Algoritmo "media"
+
+
+Var
+Portugues,Matematica,media:real
+nome:caractere
+
+Inicio
+escreval(" Digite o nome do Aluno : ")
+leia(nome)
+
+escreval(" Digite sua nota de Portugues : ")
+leia(Portugues)
+
+escreval(" Digite sua nota de Matematica : ")
+leia(Matematica)
+
+media:= (Portugues+Matematica)/2
+
+escreval(nome , " Sua média foi de : " , media)
+
+se (media>=7) entao
+   escreval(" Aprovado ! ")
+senao
+     escreval(" Reprovado ! ")
+     
+fimse
